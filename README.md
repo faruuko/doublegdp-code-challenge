@@ -20,7 +20,3 @@ Solution to DoubleGDP coding challenge - todo list
 ## Testing
 
 - run `rspec` or `rake spec`
-
-## Live link
-
-- sqlite

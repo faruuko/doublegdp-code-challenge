@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import backIcon from "../../assets/images/back.svg";
-
 const Header = ({ text, isAdd, isBack }) => {
   return (
     <HeaderWrapper text={text} isAdd={isAdd} isBack={isBack}>
@@ -25,6 +23,8 @@ const HeaderWrapper = styled.header`
   background: #6c00f7;
   color: white;
   padding: 20px 20px 20px 20px;
+  position: fixed;
+  width: 100%;
   font-size: 25px;
   display: ${(props) => (props.isAdd || props.isBack ? "flex" : "block")};
   justify-content: ${(props) => (props.isAdd ? "space-between" : "unset")};

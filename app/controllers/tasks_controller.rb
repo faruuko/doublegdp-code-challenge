@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
     def index
-        tasks = Task.all.order(created_at: :DESC)
+        tasks = Task.all.order(created_at: :DESC) # To show the latest first
         if tasks.length == 0
             render json: { message: "You don't have any task at the moment, please add a task." }
          else 
