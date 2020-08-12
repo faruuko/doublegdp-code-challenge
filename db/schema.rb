@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_12_160041) do
+ActiveRecord::Schema.define(version: 2020_08_12_125503) do
 
   create_table "tasks", force: :cascade do |t|
     t.string "avatar", default: "https://random-files.nyc3.digitaloceanspaces.com/user.svg", null: false

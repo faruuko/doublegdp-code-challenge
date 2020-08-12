@@ -64,7 +64,7 @@ TaskCard.defaultProps = {
 };
 
 const TaskWrapper = styled.section`
-  padding: 74px 20px 0px 20px;
+  padding: 94px 20px 0px 20px;
 `;
 
 const TaskItem = styled.div`
