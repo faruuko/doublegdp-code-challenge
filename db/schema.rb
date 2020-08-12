@@ -10,12 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_12_125503) do
+ActiveRecord::Schema.define(version: 2020_08_12_160041) do
 
   create_table "tasks", force: :cascade do |t|
     t.string "avatar", default: "https://random-files.nyc3.digitaloceanspaces.com/user.svg", null: false
     t.text "description", null: false
     t.datetime "completed_at"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "widgets", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

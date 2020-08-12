@@ -5,6 +5,7 @@ Solution to DoubleGDP coding challenge - todo list
 - Clone this repository
 - Run `bundle install`
 - Run `rails db:migrate`
+- Run `rails db:seed` (optipnal)
 - Run `npm install`
 - Run `rails s`
 
@@ -18,6 +19,8 @@ Solution to DoubleGDP coding challenge - todo list
 
 ## Testing
 
+- run `rspec` or `rake spec`
+
 ## Live link
 
--
+- sqlite
